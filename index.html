@@ -13,53 +13,73 @@
     <link rel="stylesheet" href="./CSS/style.css" />
   </head>
   <body class="page__body">
-    <a class="logo" href="index.html">
-      <img
-        class="logo__img"
-        src="img/logo.png"
-        alt="Namanganlaiklar24 лого"
-        width="303"
-        height="33"
-      />
-    </a>
+    <header class="site-header">
+      <div class="container">
+        <div class="site-header__top">
+          <a class="logo" href="index.html">
+            <img
+              class="logo__img"
+              src="img/logo.png"
+              alt="Namanganlaiklar24 лого"
+              width="303"
+              height="33"
+            />
+          </a>
 
-    <ul class="exchange-rates">
-      <li class="exchange-rates__item">
-        <b class="exchange-rates__icon">&dollar;</b>
-        <span class="exchange-rates__value">10178.3</span>
-      </li>
-      <li class="exchange-rates__item">
-        <b class="exchange-rates__icon">P</b>
-        <span class="exchange-rates__value">127.73</span>
-      </li>
-      <li class="exchange-rates__item">
-        <b class="exchange-rates__icon">&euro;</b>
-        <span class="exchange-rates__value">11878.87</span>
-      </li>
-    </ul>
+          <ul class="exchange-rates">
+            <li class="exchange-rates__item">
+              <b class="exchange-rates__icon">&dollar;</b>
+              <span class="exchange-rates__value">10178.3</span>
+            </li>
+            <li class="exchange-rates__item">
+              <b class="exchange-rates__icon">P</b>
+              <span class="exchange-rates__value">127.73</span>
+            </li>
+            <li class="exchange-rates__item">
+              <b class="exchange-rates__icon">&euro;</b>
+              <span class="exchange-rates__value">11878.87</span>
+            </li>
+            <li class="exchange-rates__item">
+              <img
+                src="img/logo-wather.png"
+                alt="logo-wather"
+                width="25"
+                height="25"
+              />
+              <span class="exchange-rates__value">21°C | °F</span>
+            </li>
+          </ul>
 
-    <div class="">
-      <button class="search-button" type="button">
-        <a class="search-button__img" href="#"><i class="fas fa-search"></i></a>
-      </button>
-      <button class="language-toggler" type="button">
-        <img
-          class="language-toggler__img"
-          src="img/Flag Russia.png"
-          alt="флаг рус"
-          width="20"
-          height="20"
-        />
-        <span class="language-toggler__text">Рус</span>
-      </button>
-      <a
-        class="telegram-sub"
-        href="https://t.me/My_1950_IT_blog"
-        target="_blank"
-        ><i class="fab fa-telegram"></i>
-        <span class="telegram-sub__text">Подписатся</span>
-      </a>
-    </div>
+          <div class="site-header__extion">
+            <button class="search-button" type="button">
+              <a class="search-button__img" href="#"
+                ><i class="fas fa-search"></i
+              ></a>
+            </button>
+            <button class="language-toggler" type="button">
+              <img
+                class="language-toggler__img"
+                src="img/Flag Russia.png"
+                alt="флаг рус"
+                width="20"
+                height="20"
+              />
+              <span class="language-toggler__text">Рус</span>
+            </button>
+            <a
+              class="telegram-sub"
+              href="https://t.me/My_1950_IT_blog"
+              target="_blank"
+              ><i class="fab fa-telegram"></i>
+              <span class="telegram-sub__text">Подписатся</span>
+            </a>
+          </div>
+          <!-- site-header__extion-->
+        </div>
+        <!-- site-header__top-->
+      </div>
+      <!-- container -->
+    </header>
 
     <script src="./Js/main.js"></script>
   </body>
