@@ -1,14 +1,66 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
     <title>Verstka-practice | News Website</title>
     <link rel="stylesheet" href="./CSS/normalize.css" />
     <link rel="stylesheet" href="./CSS/style.css" />
   </head>
-  <body>
+  <body class="page__body">
+    <a class="logo" href="index.html">
+      <img
+        class="logo__img"
+        src="img/logo.png"
+        alt="Namanganlaiklar24 лого"
+        width="303"
+        height="33"
+      />
+    </a>
+
+    <ul class="exchange-rates">
+      <li class="exchange-rates__item">
+        <b class="exchange-rates__icon">&dollar;</b>
+        <span class="exchange-rates__value">10178.3</span>
+      </li>
+      <li class="exchange-rates__item">
+        <b class="exchange-rates__icon">P</b>
+        <span class="exchange-rates__value">127.73</span>
+      </li>
+      <li class="exchange-rates__item">
+        <b class="exchange-rates__icon">&euro;</b>
+        <span class="exchange-rates__value">11878.87</span>
+      </li>
+    </ul>
+
+    <div class="">
+      <button class="search-button" type="button">
+        <a class="search-button__img" href="#"><i class="fas fa-search"></i></a>
+      </button>
+      <button class="language-toggler" type="button">
+        <img
+          class="language-toggler__img"
+          src="img/Flag Russia.png"
+          alt="флаг рус"
+          width="20"
+          height="20"
+        />
+        <span class="language-toggler__text">Рус</span>
+      </button>
+      <a
+        class="telegram-sub"
+        href="https://t.me/My_1950_IT_blog"
+        target="_blank"
+        ><i class="fab fa-telegram"></i>
+        <span class="telegram-sub__text">Подписатся</span>
+      </a>
+    </div>
+
     <script src="./Js/main.js"></script>
   </body>
 </html>
