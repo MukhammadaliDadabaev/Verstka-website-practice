@@ -2,6 +2,12 @@
 /* 1. FONTS ->  Rubik 400, 500, 700 Roboto 400, 400-italic, 500, 500-italic */
 /* 2. GENIRAL */
 /* 3. CONTAINER */
+/* 4. SITE-HEADER */
+/* 5.EXCHANGE_RATES */
+/* 6.SEARCH-BOTTON */
+/* 7.LANGUAGE-TOGGLER */
+/* 8.TELEGRAM-SUB */
+/* 9.LOGO STYLES */
 
 @font-face {
   font-family: "Rubik";
@@ -27,8 +33,7 @@
   src: url("../webfonts/rubik-v20-latin-700.woff2") format("woff2"),
     url("../webfonts/rubik-v20-latin-700.woff") format("woff");
 }
-
-/* fonts Robot  */
+/* FONTS-ROBOTO  */
 @font-face {
   font-family: "Roboto";
   font-style: normal;
@@ -50,7 +55,7 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url("../webfonts/roboto-v30-latin-500.woff2") format("woff2"),
+  src: url("../webfonts/roboto-v30-latin-500.woff") format("woff2"),
     url("../webfonts/roboto-v30-latin-500.woff") format("woff");
 }
 @font-face {
@@ -80,9 +85,88 @@ body {
   line-height: 1.8rem;
   color: #434343;
 }
+a {
+  text-decoration: none;
+}
+.logo-wather {
+  background-color: #f6f6f6;
+}
 /* CONTAINER */
 .container {
-  max-width: 1240px;
+  width: 97%;
   padding: 0 20px;
   margin: 0 auto;
+}
+/* SITE-HEADER */
+.site-header {
+  padding: 40px 0 25px 0;
+  border-top: 5px solid #295096;
+  background-color: #f6f6f6;
+}
+.site-header__top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 1.9rem;
+}
+/* LOGO STYLES */
+.logo {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 0 12px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 3px 7px rgba(202, 202, 202, 0.35);
+}
+.site-header__extion {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+}
+/* EXCHANGE_RATES */
+.exchange-rates {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0;
+  margin: 0 0 0 17px;
+  list-style-type: none;
+  color: #7a7a7a;
+}
+.exchange-rates__item:not(:last-child) {
+  margin-right: 25px;
+}
+.exchange-rates__icon {
+  color: #285193;
+}
+/* SEARCH-BOTTON */
+.search-button {
+  padding: 16px;
+  border: none;
+  margin-right: 30px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+/* LANGUAGE-TOGGLER */
+.language-toggler {
+  padding: 16px;
+  border: none;
+  margin-right: 25px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+/* TELEGRAM-SUB */
+.telegram-sub {
+  width: 160px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  line-height: 19px;
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: #1e96c8;
+  color: #fff;
 }
