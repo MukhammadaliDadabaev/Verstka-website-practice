@@ -3,11 +3,11 @@
 /* 2. GENIRAL */
 /* 3. CONTAINER */
 /* 4. SITE-HEADER */
+/* 9.LOGO STYLES */
 /* 5.EXCHANGE_RATES */
 /* 6.SEARCH-BOTTON */
 /* 7.LANGUAGE-TOGGLER */
 /* 8.TELEGRAM-SUB */
-/* 9.LOGO STYLES */
 
 @font-face {
   font-family: "Rubik";
@@ -93,7 +93,7 @@ a {
 }
 /* CONTAINER */
 .container {
-  width: 97%;
+  max-width: 1280px;
   padding: 0 20px;
   margin: 0 auto;
 }
