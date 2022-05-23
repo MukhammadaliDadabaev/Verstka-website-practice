@@ -109,6 +109,20 @@ a {
   align-items: center;
   font-size: 1.9rem;
 }
+.site-header__exchange-rates {
+  margin-left: 17px;
+}
+.site-header__actions {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+}
+.site-header__search-button {
+  margin-right: 30px;
+}
+.site-header__language-toggler {
+  margin-right: 25px;
+}
 /* LOGO STYLES */
 .logo {
   display: flex;
@@ -119,18 +133,12 @@ a {
   background-color: #fff;
   box-shadow: 0px 3px 7px rgba(202, 202, 202, 0.35);
 }
-.site-header__extion {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: auto;
-}
 /* EXCHANGE_RATES */
 .exchange-rates {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   padding: 0;
-  margin: 0 0 0 17px;
   list-style-type: none;
   color: #7a7a7a;
 }
@@ -144,7 +152,6 @@ a {
 .search-button {
   padding: 16px;
   border: none;
-  margin-right: 30px;
   border-radius: 5px;
   background-color: #fff;
 }
@@ -152,7 +159,6 @@ a {
 .language-toggler {
   padding: 16px;
   border: none;
-  margin-right: 25px;
   border-radius: 5px;
   background-color: #fff;
 }
