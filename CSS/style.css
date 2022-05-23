@@ -3,11 +3,12 @@
 /* 2. GENIRAL */
 /* 3. CONTAINER */
 /* 4. SITE-HEADER */
-/* 9.LOGO STYLES */
-/* 5.EXCHANGE_RATES */
-/* 6.SEARCH-BOTTON */
-/* 7.LANGUAGE-TOGGLER */
-/* 8.TELEGRAM-SUB */
+/* 5.WATHER IMG */
+/* 6.LOGO STYLES */
+/* 7.EXCHANGE_RATES */
+/* 8.SEARCH-BOTTON */
+/* 9.LANGUAGE-TOGGLER */
+/* 10.TELEGRAM-SUB */
 
 @font-face {
   font-family: "Rubik";
@@ -112,6 +113,16 @@ a {
 .site-header__exchange-rates {
   margin-left: 17px;
 }
+.exchange-rates__item {
+  display: flex;
+  align-items: center;
+}
+/* WATHER IMG */
+.logo-wather {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
 .site-header__actions {
   display: flex;
   flex-wrap: wrap;
@@ -162,6 +173,16 @@ a {
   border-radius: 5px;
   background-color: #fff;
 }
+.language-toggler__wrapper {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+.language-toggler__img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
 /* TELEGRAM-SUB */
 .telegram-sub {
   width: 160px;
@@ -171,8 +192,15 @@ a {
   align-items: center;
   text-decoration: none;
   line-height: 19px;
-  font-weight: 500;
   border-radius: 5px;
-  background-color: #1e96c8;
+  border: none;
+  background-color: #219fd5;
   color: #fff;
+}
+.telegram-sub:hover {
+  background-color: #0080b7;
+}
+.telegram-sub__text {
+  font-weight: 500;
+  margin-left: 7px;
 }
