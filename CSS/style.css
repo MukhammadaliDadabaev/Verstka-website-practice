@@ -11,7 +11,9 @@
 /* 10.TELEGRAM-SUB */
 /* 11. SITENAV */
 /* 12. TOP-BANNER */
-/* 13. KEYFRAES */
+/* 13. SITE FOOTER */
+/* MEDIA QUREIES */
+/*  KEYFRAES */
 
 @font-face {
   font-family: "Rubik";
@@ -88,6 +90,9 @@ body {
   font-size: 1.5rem;
   line-height: 1.8rem;
   color: #434343;
+}
+ul {
+  list-style: none;
 }
 a {
   text-decoration: none;
@@ -278,9 +283,29 @@ button:focus {
   display: flex;
 }
 /* SITE FOOTER STYLES */
-/* .logo-footer h3 {
-  width: 200px;
-} */
+.site-footer {
+  padding: 18px 0;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: #295093;
+  color: #fff;
+}
+.site-footer__top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.site-footer__logo {
+  display: flex;
+  padding: 10px;
+  margin-right: auto;
+  border-radius: 5px;
+  background-color: #133c82;
+}
+.site-footer__sub-text {
+  margin: 0;
+  margin-right: 17px;
+}
 
 /* MEDIA QUERIES */
 @media (max-width: 1070px) {
