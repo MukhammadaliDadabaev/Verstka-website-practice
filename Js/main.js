@@ -9,6 +9,7 @@ const ready = function (cb) {
 
 // Usage
 ready(function () {
+// TOGGLE SITENAV on site-header__toggle click
   const elSiteHeaderToggler = document.querySelector(".site-header__toggler");
   const elSitenav = document.querySelector(".sitenav");
 
