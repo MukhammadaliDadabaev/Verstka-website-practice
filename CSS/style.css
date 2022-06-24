@@ -11,7 +11,8 @@
 /* 10.TELEGRAM-SUB */
 /* 11. SITENAV */
 /* 12. TOP-BANNER */
-/* 13. SITE FOOTER */
+/* 13.MAIN-CONTENT */
+/* 14. SITE FOOTER */
 /* MEDIA QUREIES */
 /*  KEYFRAES */
 
@@ -84,6 +85,8 @@ html {
   box-sizing: inherit;
 }
 body {
+  display: flex;
+  flex-direction: column;
   height: 100%;
   font-family: "Roboto", "Arial", sans-serif;
   /* font-family: "Rubik", "Arial", sans-serif; */
@@ -287,6 +290,14 @@ button:focus {
 /* TOP-BANNER */
 .top-banner__link {
   display: flex;
+}
+.top-banner__img {
+  height: 100px;
+}
+/* MAIN-CONTENT */
+.main-content {
+  flex-grow: 1;
+  padding: 22px 0 38px;
 }
 /* SITE FOOTER STYLES */
 .site-footer {
