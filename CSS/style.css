@@ -299,6 +299,68 @@ button:focus {
   flex-grow: 1;
   padding: 22px 0 38px;
 }
+/* COV_INFO STYLRS */
+.cov-info {
+  display: flex;
+  align-items: center;
+  padding: 30px 35px;
+  border-radius: 7px;
+  background-color: #f6f6f6;
+  color: #000;
+}
+.cov-img__1 {
+  margin-right: 25px;
+  border-radius: 50%;
+}
+.cov-info__heading {
+  width: 235px;
+  margin: 0 70px 0 0;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.cov-info__stats-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: 1;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.cov-info__stat {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 24px;
+  border-left: 2px solid #f4ccd1;
+}
+.cov-info__stat--red {
+  padding: 17px 24px;
+  border-left-color: #eb5569;
+}
+.cov-img__2 {
+  margin-right: 13px;
+  border-radius: 50%;
+}
+.cov-info__stat-title {
+  margin: 0 0 5px;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+}
+.cov-info__stat-title--red {
+  color: #c90000;
+}
+.cov-info__stat-title--green {
+  color: #009b2c;
+}
+.cov-info__stat-value {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 500;
+}
 /* SITE FOOTER STYLES */
 .site-footer {
   padding: 18px 0;
