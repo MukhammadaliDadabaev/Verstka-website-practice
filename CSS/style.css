@@ -410,6 +410,7 @@ button:focus {
   font-weight: 500;
 }
 .news-grid__link {
+  display: inline-block;
   text-decoration: none;
   color: #202020;
   transition: color 0.35s all ease;
