@@ -427,6 +427,7 @@ button:focus {
 .notifications {
   display: flex;
   align-items: center;
+  margin-bottom: 38px;
   padding: 25px 35px;
   background-color: rgba(239, 186, 84, 0.18);
 }
@@ -465,6 +466,99 @@ button:focus {
 .notifications__btn:focus {
   box-shadow: 0 0 0 5px rgba(255, 140, 57, 0.5);
 }
+/* LATEST-POPULAR-NEWS */
+.latest-popular-news {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+.news-list {
+  width: 794px;
+}
+.news-list__heading {
+  margin: 0 0 13px 0;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #000;
+}
+.news-list__list {
+  padding: 0;
+  list-style-type: none;
+}
+.news-list__item {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.news-list__item:not(:last-child) {
+  margin-bottom: 18px;
+}
+.news-list__img {
+  width: 252px;
+  height: 143px;
+  margin-right: 20px;
+  border-radius: 7px;
+  object-fit: cover;
+}
+.news-list__body {
+  width: 522px;
+}
+.news-list__title {
+  margin: 0 0 18px 0;
+  font-size: 17px;
+  line-height: 20px;
+}
+.news-list__link {
+  display: inline-block;
+  color: #202020;
+  transition: color 0.35s all ease;
+}
+.news-list__link::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.news-grid__data {
+  display: inline-block;
+  color: #6b6d97;
+}
+.news-list__item:hover .news-list__link {
+  color: #295091;
+}
+.news-list__text {
+  margin-bottom: 14px;
+}
+.news-list__date-wrapper {
+  color: #7688a4;
+}
+.news-list__icon {
+  margin-right: 3px;
+}
+.news-list__more-wrapper {
+  text-align: center;
+}
+.news-list__more-btn {
+  padding: 10px 32px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #295093;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.35s ease all;
+}
+.news-list__more-btn:hover {
+  background-color: #307fff;
+}
+
 /* SITE FOOTER STYLES */
 .site-footer {
   padding: 18px 0;
