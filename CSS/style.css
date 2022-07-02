@@ -543,7 +543,7 @@ button:focus {
 .news-list__more-wrapper {
   text-align: center;
 }
-.news-list__more-btn {
+.button {
   padding: 10px 32px;
   font-size: 17px;
   font-weight: 500;
@@ -555,8 +555,8 @@ button:focus {
   cursor: pointer;
   transition: background-color 0.35s ease all;
 }
-.news-list__more-btn:hover {
-  background-color: #307fff;
+.button:hover {
+  background-color: #4e92ff;
 }
 
 /* SITE FOOTER STYLES */
