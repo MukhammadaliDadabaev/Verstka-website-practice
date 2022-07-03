@@ -294,8 +294,9 @@ button:focus {
   color: #515151;
   transition: color 0.3s ease;
 }
-.sitenav__link:hover {
-  color: #295091;
+.sitenav__link:hover,
+.sitenav__item--active .sitenav__link {
+  color: #002e7d;
 }
 /* TOP-BANNER */
 .top-banner__link {
