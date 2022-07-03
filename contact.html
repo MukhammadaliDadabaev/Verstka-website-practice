@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <title>News Contact</title>
+    <link rel="stylesheet" href="./CSS/normalize.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body class="page__body" data-gr-c-s-loaded="true">
+    <!-- SITE HEADER -->
+    <header class="site-header site-header--open">
+      <div class="container">
+        <!-- SITE-HEADER__TOP-->
+        <div class="site-header__top">
+          <a class="logo" href="index.html">
+            <img class="logo__img" src="./Img/logo-NAM.jpeg" alt="web-logo" />
+          </a>
+
+          <ul class="site-header__exchange-rates exchange-rates">
+            <li class="exchange-rates__item">
+              <b class="exchange-rates__icon">&dollar;</b>
+              <span class="exchange-rates__value">10178.3</span>
+            </li>
+            <li class="exchange-rates__item">
+              <b class="exchange-rates__icon">P</b>
+              <span class="exchange-rates__value">127.73</span>
+            </li>
+            <li class="exchange-rates__item">
+              <b class="exchange-rates__icon">&euro;</b>
+              <span class="exchange-rates__value">11878.87</span>
+            </li>
+            <li class="exchange-rates__item">
+              <img
+                class="logo-wather"
+                src="./Img/logo-cloud-wather.png"
+                alt="logo-wather"
+                width="35"
+                height="35"
+              />
+              <span class="exchange-rates__value">31°C | °F</span>
+            </li>
+          </ul>
+          <!-- site-header__extion-->
+          <div class="site-header__actions">
+            <button
+              class="site-header__search-button search-button"
+              type="button"
+            >
+              <i class="fas fa-search"></i>
+            </button>
+            <button
+              class="site-header__language-toggler language-toggler"
+              type="button"
+            >
+              <span class="language-toggler__wrapper">
+                <img
+                  class="language-toggler__img"
+                  src="./Img/Flag Russia.png"
+                  alt="флаg-pyc"
+                  width="15"
+                  height="15"
+                />
+                <span class="language-toggler__text">Рус</span>
+              </span>
+            </button>
+            <button
+              class="site-header__telegram-sub telegram-sub telegram-sub--dark"
+              href="https://t.me/My_1950_IT_blog"
+              target="_blank"
+            >
+              <i class="fab fa-telegram"></i>
+              <span class="telegram-sub__text">Подписатся</span>
+            </button>
+            <button class="site-header__toggler" type="button">МЕНЮ</button>
+          </div>
+        </div>
+        <!-- SITE-NAVEGATION -->
+        <nav class="sitenav sitenav--open">
+          <ul class="sitenav__list">
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="list.html">Ўзбекистон</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="list.html">Dunyo</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="list.html">Иқтисодиёт</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="list.html">Сиёсат</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="list.html">Мир</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="list.html">Шоу Бизнес</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="list.html">Спорт</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="list.html">Бокс</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="list.html">Технологиялар</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="list.html">Туризм</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Top banner -->
+        <aside class="top-banner">
+          <a class="top-banner__link" href="#" target="_blank">
+            <img
+              class="top-banner__img"
+              src="Img/logo-banner.jpg"
+              alt="logo-banner"
+              srcset="Img/logo-banner.jpg 1x, Img/logo-banner.jpg 2x"
+              width="1240"
+              height="100"
+            />
+          </a>
+        </aside>
+      </div>
+      <!-- container -->
+    </header>
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+      <div class="container">
+        <h1 class="main-content__page-title">Напишите нам</h1>
+        <div class="form-info-wrapper">
+          <!-- CONTACT-FORM -->
+          <div class="contact-form">
+            <form class="contact-form__form" action="">
+              <div class="contact-form__group">
+                <input
+                  class="contact-form__input"
+                  aria-label="Имя"
+                  type="text"
+                  name="name"
+                  id="name-input"
+                  placeholder="Имя"
+                  required
+                />
+              </div>
+              <div class="contact-form__group">
+                <input
+                  class="contact-form__input"
+                  aria-label="Электронная почта"
+                  type="email"
+                  name="email"
+                  id="email-input"
+                  placeholder="Электронная почта"
+                  required
+                />
+              </div>
+              <div class="contact-form__group">
+                <input
+                  class="contact-form__input"
+                  aria-label="Номер телефон"
+                  type="tel"
+                  name="tel"
+                  id="tel-input"
+                  placeholder="Номер телефон"
+                  required
+                />
+              </div>
+              <div class="contact-form__group">
+                <input
+                  class="contact-form__input"
+                  aria-label="Тема"
+                  type="text"
+                  name="тема"
+                  id="тема-input"
+                  placeholder="Тема"
+                  required
+                />
+              </div>
+              <div class="contact-form__group">
+                <textarea
+                  class="contact-form__textarea"
+                  rows="7"
+                  aria-label="Текст"
+                  name="body"
+                  id="body-input"
+                  placeholder="Текст"
+                  required
+                ></textarea>
+              </div>
+              <div class="contact-form__group contact-form__group--small">
+                <label class="contact-form__file-input">
+                  <input class="visually-hidden" type="file" />
+                  <span class="contact-form__file-input-label">
+                    Прикрепить файл &nbsp;&nbsp;
+                    <i class="fa-solid fa-file"></i>
+                  </span>
+                </label>
+              </div>
+              <div
+                class="contact-form__group contact-form__group--small contact-form__group--captcha"
+              >
+                <input
+                  class="contact-form__input"
+                  aria-label="Код"
+                  type="text"
+                  name="captcha"
+                  placeholder="Код"
+                  required
+                />
+                <span class="contact-form__captcha-text"
+                  ><b>7 M 3 A , R</b></span
+                >
+              </div>
+              <div class="contact-form__group contact-form__group--small">
+                <button class="button button--block" type="submit">
+                  Отправить
+                </button>
+              </div>
+            </form>
+          </div>
+          <!-- CONTACT-INFO -->
+          <section class="contact-info">
+            <h2 class="visually-hidden">Contact news</h2>
+            <img
+              class="contact-info__logo"
+              src="./Img/logo-NAM.jpeg"
+              alt="logo-NAM"
+            />
+            <div class="contact-info__group">
+              <p class="contact-info__heading">Электронная почта</p>
+              <p class="contact-info__email">alizodagon@mail.ru</p>
+            </div>
+            <div class="contact-info__group">
+              <p class="contact-info__heading">Социальные сети</p>
+              <ul class="contact-info__socials">
+                <li class="contact-info__socials-item">
+                  <a
+                    class="contact-info__socials-link"
+                    href="https://t.me/Mukhammad_Ali_1950"
+                    target="_blank"
+                    ><i class="fa-brands fa-instagram-square"></i
+                  ></a>
+                </li>
+                <li class="contact-info__socials-item">
+                  <a
+                    class="contact-info__socials-link"
+                    href="https://www.facebook.com/profile.php?id=100069161432489"
+                    target="_blank"
+                    ><i class="fa-brands fa-facebook"></i
+                  ></a>
+                </li>
+                <li class="contact-info__socials-item">
+                  <a
+                    class="contact-info__socials-link"
+                    href="https://www.youtube.com/channel/UCL5Tu66p6bTNaumpLOmP7SQ/featured"
+                    target="_blank"
+                    ><i class="fa-brands fa-youtube"></i
+                  ></a>
+                </li>
+                <li class="contact-info__socials-item">
+                  <a
+                    class="contact-info__socials-link"
+                    href="https://github.com/MukhammadaliDadabaev"
+                    target="_blank"
+                    ><i class="fa-brands fa-github"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="contact-info__group">
+              <p class="contact-info__heading">Телеграм канал</p>
+              <button
+                class="contact__telegram-sub telegram-sub telegram-sub--white"
+                href="https://t.me/My_1950_IT_blog"
+                target="_blank"
+              >
+                <i class="fab fa-telegram"></i>
+                <span class="telegram-contact__text"><b>Подписатся</b></span>
+              </button>
+            </div>
+            <div class="contact-info__group">
+              <p class="contact-info__heading">Мобильная приложение</p>
+              <div class="contact-app__links">
+                <a
+                  href="https://t.me/Mukhammad_Ali_1950"
+                  target="_blank"
+                  class="contact-app__link"
+                >
+                  <i class="contact-app__icon fa-brands fa-cc-apple-pay"></i>
+                </a>
+                <a
+                  href="https://t.me/Mukhammad_Ali_1950"
+                  target="_blank"
+                  class="contact-app__link"
+                >
+                  <i class="contact-app__icon fa-brands fa-google-play"></i>
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <!-- SITE-FOOTER -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="site-footer__top">
+          <a class="site-footer__logo" href="index.html">
+            <img
+              class="site-footer-logo__img"
+              src="./Img/logo-NAM.jpeg"
+              alt="web-logo"
+              width="173"
+              height="21"
+            />
+          </a>
+          <p class="site-footer__sub-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
+            dolores optio rem quisquam velit in!
+          </p>
+          <button
+            class="site-footer__telegram-sub telegram-sub telegram-sub--white"
+            href="https://t.me/My_1950_IT_blog"
+            target="_blank"
+          >
+            <i class="fab fa-telegram fa-2x"></i>
+            <span class="telegram-sub__text"><b>Подписатся</b></span>
+          </button>
+        </div>
+        <hr class="site-footer__divider" />
+        <div class="site-footer__bottom">
+          <section class="site-footer__about">
+            <h2 class="site-footer__heading">O sayt</h2>
+            <p class="site-footer__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Repudiandae consectetur nemo numquam, architecto omnis nostrum
+              consequuntur nesciunt, optio dolores cum impedit aperiam magnam
+              laudantium a.
+            </p>
+          </section>
+          <ul class="site-footer__nav">
+            <li class="site-footer__nav-item">
+              <a class="site-footer__nav-link" href="#">Информация о сайте</a>
+            </li>
+            <li class="site-footer__nav-item">
+              <a class="site-footer__nav-link" href="#">Мурожаат йўллаш</a>
+            </li>
+            <li class="site-footer__nav-item">
+              <a class="site-footer__nav-link" href="#">Реклама</a>
+            </li>
+            <li class="site-footer__nav-item">
+              <a class="site-footer__nav-link" href="#">Хабар юбориш</a>
+            </li>
+            <li class="site-footer__nav-item">
+              <a class="site-footer__nav-link" href="#"
+                >Использование материалов</a
+              >
+            </li>
+            <li class="site-footer__nav-item">
+              <a class="site-footer__nav-link" href="#">Темы дня</a>
+            </li>
+            <li class="site-footer__nav-item">
+              <a class="site-footer__nav-link" href="#">Наша команда</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="./Js/main.js"></script>
+  </body>
+</html>
