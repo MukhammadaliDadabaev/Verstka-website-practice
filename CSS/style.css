@@ -667,6 +667,42 @@ button:focus {
   object-fit: cover;
   object-position: center top;
 }
+/* SITE-APP */
+.site-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 65px 20px 65px 50px;
+  background: #f6f6f6 url("../Img/main-2.png") no-repeat 10px bottom / 170px;
+}
+.site-app__heading {
+  margin: 0 0 10px;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #295093;
+}
+.site-app__body {
+  width: 60%;
+  margin-left: 150px;
+}
+.site-app__text {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 500;
+  color: #333;
+}
+.site-app__links {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 40px;
+}
+.site-app__link {
+  margin: 7px;
+}
+.site-app__img {
+  color: #000;
+}
 /* SITE FOOTER STYLES */
 .site-footer {
   padding: 18px 0;
@@ -769,6 +805,16 @@ button:focus {
   .cov-info__heading {
     margin-right: 40px;
   }
+  .site-app {
+    flex-wrap: wrap;
+    padding: 35px 20px 35px 50px;
+  }
+  .site-app__body {
+    width: 100%;
+  }
+  .site-app__links {
+    align-items: center;
+  }
 }
 
 @media (max-width: 1070px) {
@@ -811,6 +857,9 @@ button:focus {
 @media (max-width: 850px) {
   .news-list,
   .popular-news-banner {
+    width: 100%;
+  }
+  .sidebar-banner__img {
     width: 100%;
   }
 }
@@ -934,6 +983,20 @@ button:focus {
   }
 }
 
+@media (max-width: 700px) {
+  .site-app__links {
+    margin-left: 100px;
+  }
+  .site-app__heading {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .site-app__text {
+    font-size: 15px;
+    line-height: 19px;
+  }
+}
+
 @media (max-width: 650px) {
   .cov-info__stats-list {
     flex-direction: column;
@@ -967,6 +1030,24 @@ button:focus {
     width: 100%;
     text-align: center;
   }
+  .site-app {
+    padding: 20px;
+    background-image: none;
+  }
+  .site-app__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+  }
+  .site-app__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 5px;
+  }
 }
 
 @media (max-width: 550px) {
@@ -989,9 +1070,6 @@ button:focus {
   .news-list__text {
     margin: 7px 0;
   }
-  .sidebar-banner__img {
-    width: 100%;
-  }
 }
 
 @media (max-width: 500px) {
@@ -1009,6 +1087,9 @@ button:focus {
     width: 100%;
     margin-top: 15px;
     text-align: center;
+  }
+  .site-app__links {
+    font-size: 1rem;
   }
   .site-footer__sub-text {
     text-align: center;
@@ -1028,6 +1109,10 @@ button:focus {
   }
   .notifications__btn {
     padding: 5px 9px;
+  }
+  .site-app__heading,
+  .site-app__text {
+    text-align: center;
   }
 }
 
