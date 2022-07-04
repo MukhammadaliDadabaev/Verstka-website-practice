@@ -211,7 +211,7 @@ button:focus {
 }
 /* LANGUAGE-TOGGLER */
 .language-toggler {
-  padding: 16px;
+  padding: 10px;
   border: none;
   border-radius: 5px;
   background-color: #fff;
@@ -227,9 +227,13 @@ button:focus {
   font-weight: 600;
 }
 .language-toggler__img {
-  width: 20px;
-  height: 20px;
-  margin-right: 5px;
+  width: 30px;
+  height: 23px;
+  margin: -5px 0;
+}
+.form-select {
+  margin-top: 3px;
+  border: none;
 }
 /* TELEGRAM-SUB */
 .telegram-sub {
