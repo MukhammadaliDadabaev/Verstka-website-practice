@@ -9,7 +9,7 @@ if (isset($_POST['submit'])) {
   $phone = trim(htmlentities($_POST['phone']));
   $tema = trim(htmlentities($_POST['tema']));
   $message = trim(htmlentities($_POST['message']));
-  $captcha = trim(htmlentities($_POST['captcha']));
+  $captcha = trim($_POST['captcha']);
 
   // BU API-KEY va GROUP-CHAT-ID SI
   $token = "5287741940:AAGSp1UL8Z187baeAmvALLe5YN956fu3c9M";
