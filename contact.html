@@ -87,7 +87,7 @@
         <nav class="sitenav sitenav--open">
           <ul class="sitenav__list">
             <li class="sitenav__item">
-              <a class="sitenav__link" href="list.html">Ўзбекистон</a>
+              <a class="sitenav__link" href="index.html">Ўзбекистон</a>
             </li>
             <li class="sitenav__item">
               <a class="sitenav__link" href="list.html">Dunyo</a>
@@ -141,7 +141,7 @@
         <div class="form-info-wrapper">
           <!-- CONTACT-FORM -->
           <div class="contact-form">
-            <form class="contact-form__form" action="">
+            <form class="contact-form__form" action="date.php">
               <div class="contact-form__group">
                 <input
                   class="contact-form__input"
@@ -169,7 +169,7 @@
                   class="contact-form__input"
                   aria-label="Номер телефон"
                   type="tel"
-                  name="tel"
+                  name="phone"
                   id="tel-input"
                   placeholder="Номер телефон"
                   required
@@ -180,7 +180,7 @@
                   class="contact-form__input"
                   aria-label="Тема"
                   type="text"
-                  name="тема"
+                  name="tema"
                   id="тема-input"
                   placeholder="Тема"
                   required
@@ -191,7 +191,7 @@
                   class="contact-form__textarea"
                   rows="7"
                   aria-label="Текст"
-                  name="body"
+                  name="message"
                   id="body-input"
                   placeholder="Текст"
                   required
@@ -222,7 +222,11 @@
                 >
               </div>
               <div class="contact-form__group contact-form__group--small">
-                <button class="button button--block" type="submit">
+                <button
+                  class="button button--block"
+                  type="submit"
+                  name="submit"
+                >
                   Отправить
                 </button>
               </div>
