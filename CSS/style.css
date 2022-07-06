@@ -170,17 +170,21 @@ button:focus {
 /* LOGO STYLES */
 .logo {
   display: flex;
-  padding: 12px 8px;
-  border-radius: 5px;
+  padding: 11px 6px;
   background-color: rgba(255, 255, 255, 0.991);
   box-shadow: 0px 3px 7px rgba(202, 202, 202, 0.35);
   transition: transform 0.3s ease;
+  border-radius: 5px;
 }
 .logo:hover {
   transform: scale(1.025);
 }
 .logo:focus {
   box-shadow: 0 0 0 4px rgba(41, 80, 147, 0.4);
+}
+.logo__img {
+  width: 250px;
+  height: 35px;
 }
 /* EXCHANGE_RATES */
 .exchange-rates {
@@ -909,6 +913,10 @@ button:focus {
   margin-left: 20px;
   color: #333;
 }
+.contact-info__logo {
+  width: 163px;
+  height: 40px;
+}
 
 /* SITE FOOTER STYLES */
 .site-footer {
@@ -928,7 +936,6 @@ button:focus {
 .site-footer__logo {
   flex-shrink: 0;
   display: flex;
-  padding: 12px;
   margin-right: auto;
   border-radius: 5px;
   background-color: #133c82;
@@ -1298,7 +1305,7 @@ button:focus {
 @media (max-width: 500px) {
   .logo {
     font-size: 1.5rem;
-    padding: 0 7px;
+    padding: 6px 7px;
   }
   .sitenav {
     width: 47%;
