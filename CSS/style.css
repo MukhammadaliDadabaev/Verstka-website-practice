@@ -184,7 +184,7 @@ button:focus {
 }
 .logo__img {
   width: 250px;
-  height: 35px;
+  height: 30px;
 }
 /* EXCHANGE_RATES */
 .exchange-rates {
@@ -939,10 +939,6 @@ button:focus {
   margin-right: auto;
   border-radius: 5px;
   background-color: #133c82;
-}
-.site-footer-logo__img {
-  width: 175px;
-  height: 17px;
 }
 .site-footer__sub-text {
   margin: 0;
