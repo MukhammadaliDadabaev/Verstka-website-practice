@@ -1141,7 +1141,7 @@ button:focus {
     position: relative;
     z-index: 20;
     display: block;
-    padding: 10px;
+    padding: 11px;
     border: none;
     border-radius: 5px;
     font-weight: 600;
@@ -1157,7 +1157,7 @@ button:focus {
     top: 0;
     right: 0;
     z-index: 15;
-    width: 55%;
+    width: 42%;
     border-radius: 0;
     margin-bottom: 0;
     box-shadow: -10px 0 15px rgba(0, 0, 0, 0.1);
@@ -1203,6 +1203,9 @@ button:focus {
     flex-wrap: wrap;
     align-items: stretch;
     margin-top: 35px;
+  }
+  .site-footer {
+    padding: 0;
   }
   .site-footer__sub-text {
     order: 1;
@@ -1282,7 +1285,7 @@ button:focus {
 
 @media (max-width: 550px) {
   .news-list {
-    margin-bottom: 35px;
+    margin-bottom: 25px;
   }
   .news-list__item:not(:last-child) {
     margin-bottom: 30px;
@@ -1303,12 +1306,12 @@ button:focus {
 }
 
 @media (max-width: 500px) {
-  .logo {
-    font-size: 1.5rem;
-    padding: 6px 7px;
-  }
   .sitenav {
-    width: 47%;
+    width: 100%;
+  }
+  .logo {
+    padding: 5px 7px;
+    z-index: 25;
   }
   .cov-img__1 {
     margin-right: 0;
@@ -1339,6 +1342,12 @@ button:focus {
 }
 
 @media (max-width: 400px) {
+  .site-header {
+    padding-bottom: 0;
+  }
+  .logo__img {
+    width: 200px;
+  }
   .notifications {
     padding: 17px;
   }
@@ -1356,6 +1365,50 @@ button:focus {
   }
   .main-content__page-title {
     margin-top: 55px;
+  }
+  .contact-info__logo {
+    width: 100%;
+    height: 55px;
+  }
+}
+
+@media (max-width: 380px) {
+  .site-header__toggler {
+    padding: 6px;
+    font-size: 1.7rem;
+  }
+  .logo {
+    padding: 6px;
+  }
+  .logo__img {
+    width: 180px;
+    height: 20px;
+  }
+  .site-footer__top {
+    justify-content: center;
+    margin: 0;
+  }
+  .site-footer__logo {
+    width: 100%;
+    height: 55px;
+    margin: 15px;
+  }
+  .site-footer-logo__img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 300px) {
+  .sitenav__list {
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 20px 20px 20px;
+  }
+  .site-header__top {
+    flex-direction: column;
+  }
+  .site-header__toggler {
+    margin-right: 30px;
   }
 }
 
